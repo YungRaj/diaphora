@@ -21,7 +21,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 import sys
 import diaphora_ida
-reload(diaphora_ida)
 from diaphora_ida import load_and_import_all_results
 
 from idaapi import IDA_SDK_VERSION

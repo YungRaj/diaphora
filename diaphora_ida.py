@@ -39,11 +39,10 @@ from others.tarjan_sort import strongly_connected_components, robust_topological
 from jkutils.factor import primesbelow as primes
 from jkutils.graph_hashes import CKoretKaramitasHash
 
+import idaapi
 from idc import *
 from idaapi import *
 from idautils import *
-
-from PyQt5 import QtCore, QtGui, QtWidgets
 
 #-------------------------------------------------------------------------------
 # Constants unexported in IDA Python
